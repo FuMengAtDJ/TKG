@@ -86,7 +86,7 @@ header #logo {
 }
 /*マウスオン時*/
 #menubar li a:hover {
-	background: #4deaf3;	/*背景色*/
+	background: #DCDCDC;	/*背景色*/
 	border-radius: 4px;		/*角丸のサイズ*/
 	color: #fff;	/*文字色*/
 }
