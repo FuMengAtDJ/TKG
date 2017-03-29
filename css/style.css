@@ -138,7 +138,7 @@ header #logo {
 	clear: both;
 	margin-bottom: 15px;
 	font-size: 18px;
-	color: #54D1F1;		/*文字色*/
+	color: #FFFFFF;		/*文字色*/
 	padding: 5px 15px;	/*上下、左右への余白*/
 	background: #000;	/*背景色（古いブラウザ用）*/
 }
@@ -207,7 +207,7 @@ header #logo {
 	margin-bottom: 0.5em;
 	color: #000;		/*文字色*/
 	border-bottom: 1px solid #CCC;	/*下線の幅、線種、色*/
-	background: #B0E57C;	/*背景色*/
+	background: #FFFFFF;	/*背景色*/
 }
 /*ボックス内のh4タグの１文字目への設定*/
 
@@ -391,7 +391,7 @@ footer .pr {
 .ta1 th.tamidashi {
 	width: auto;
 	text-align: left;	/*左よせ*/
-	background: #e5eef3;	/*背景色*/
+	background: #ffffff;	/*背景色*/
 }
 /*ta1の左側ボックス*/
 .ta1 th {
