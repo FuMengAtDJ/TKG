@@ -190,7 +190,7 @@ header #logo {
 /*ボックス内の段落タグ設定*/
 #main section.list p {
 	padding: 0px;
-	margin-left: 24%;	/*左側の写真幅とのバランスをとって設定*/
+	margin-left: 0.1%;	/*左側の写真幅とのバランスをとって設定*/
 }
 /*ボックス内の写真設定*/
 #main section.list figure img {
