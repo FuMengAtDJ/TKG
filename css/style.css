@@ -147,15 +147,11 @@ header #logo {
 	clear: both;
 	margin-bottom: 15px;
 	font-size: 100%;
-	padding: 3px 15px;	/*上下、左右への余白*/
+	padding: 3px 0px;	/*上下、左右への余白*/
 	border: 1px solid #ddd;	/*枠線の幅、線種、色*/
 	background: #fafafa;	/*背景色*/
 }
-/*mainコンテンツのh3タグの１文字目への設定*/
-#main h3::first-letter {
-	border-left: 3px solid #4deaf3;	/*左側のアクセント用ラインの幅、線種、色*/
-	padding-left: 10px;	/*アクセントラインと文字の間にとる余白*/
-}
+
 /*mainコンテンツの段落タグ設定*/
 #main p {
 	padding: 7px 15px 14px;	/*上、左右、下への余白*/
