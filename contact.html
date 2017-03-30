@@ -168,9 +168,9 @@ if (OCwindowWidth() <= 800) {
     var jMail = new ActiveXObject("Jmail.message");
     jMail.Silent = true;
     jMail.Charset = "utf-8";
-    jMail.FromName =  "name";   //发件人
-    jMail.From = "gwwangweia@test.com";           //发件人邮箱地址 (宇通邮箱地址)
-    jMail.AddRecipient("gwwangweia@test.com");    //收件人的邮件地址
+    jMail.FromName =  $('mailto_name').value;   //发件人
+    jMail.From = $('mailto_address').value;           //发件人邮箱地址 (宇通邮箱地址)
+    jMail.AddRecipient("info@t-k-g.co.jp");    //收件人的邮件地址
     jMail.Subject = subject;                   //邮件标题
     jMail.Body = infor;                        //邮件内容
     jMail.MailServerUserName="gwwangweia";     //邮件服务器用户名 (勿变)
